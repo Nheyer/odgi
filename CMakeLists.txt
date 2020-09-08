@@ -4,8 +4,8 @@ cmake_minimum_required(VERSION 3.1)
 
 # Project's name
 project(odgi)
-# We build using c++14
-set(CMAKE_CXX_STANDARD 14)
+# We build using c++17 
+set(CMAKE_CXX_STANDARD 17)
 
 # Use all standard-compliant optimizations
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS} -O3 -mcx16 -g")
